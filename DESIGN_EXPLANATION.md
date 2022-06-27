@@ -9,7 +9,7 @@
 * Pagination - For pagination I have used the library provided by React the react-paginate.It provides a list of props for eg. like storing the pageCount or the active page etc.
   I have used the slice function by javascript to restrict the view of cards per page to only 16. This library provides an object selected.
 
-* Code Structure for the Backend and Frontend has been fully designed keeping in mind the concurrency library and for production purposes.I have kept a server folder for the backend and it has its own package.json files.
+* Code Structure for the Backend and Frontend has been fully designed keeping in mind the concurrency library and for production purposes.I have kept a server folder for the backend and it has its own package.json files.The reason to keep them seperate is for future scope where the application might get bigger and it would be logical to organize the libraries for the frontend and backend seperately in their respective package.json file.
 
 * Express-Validator - For the backend I have used express Validator library to validate the params.I have also handled the error in the backend.
 
