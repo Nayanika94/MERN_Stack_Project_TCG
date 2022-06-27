@@ -1,0 +1,20 @@
+{
+  "name": "take-home-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon ./server/app.js",
+    "client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "flowbite": "^1.4.7",
+    "flowbite-react": "^0.0.27"
+  }
+}
