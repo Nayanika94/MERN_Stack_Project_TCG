@@ -5,6 +5,7 @@ import debouce from "lodash.debounce";
 const CardSearch = ({ onFilterCards }) => {
 
     //-------state management for searchByName---------
+    // eslint-disable-next-line no-unused-vars
     const [searchName, setSearchName] = useState('');
 
     const handleChangeName = (e) => {
@@ -15,7 +16,8 @@ const CardSearch = ({ onFilterCards }) => {
     //-----useMemo to memoize a return value from debounce function---
     const debouncedResults = useMemo(() => {
         return debouce(handleChangeName, 500);
-    }, [searchName]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     //-----clean up any side effects from debounce----
     useEffect(() => {
