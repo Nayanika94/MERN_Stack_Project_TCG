@@ -1,6 +1,7 @@
 import React from 'react';
 import Search from '../components/Card/CardList/Search';
 import Footer from '../components/Footer';
+import image from '../assets/image.jpeg';
 
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
         <>
             <div className='h-full'>
                 <div className='flex justify-center mb-5 '>
-                    <img src="https://tcgmachines.com/_next/image?url=https%3A%2F%2Fmarketing-production.azureedge.net%2Fstrapi%2Fassets%2Fsmall_logo_flat_design_9721338312.png&w=256&q=75" alt='TCG INC machines logo' />
+                    <img src={image} style={{ height: "200px" }} alt='TCG INC machines logo' />
                 </div>
                 <Search />
                 <Footer />

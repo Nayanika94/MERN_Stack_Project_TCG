@@ -16,5 +16,15 @@
     "dotenv": "^16.0.1",
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.0.27"
-  }
+  },
+  "description": "**Backend**: Using Node and Express, you will create a single **REST** endpoint to retrieve a list of Magic cards from the Scryfall API based on a provided search string from the client.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayanika94/MERN_Stack_Project_TCG.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Nayanika94/MERN_Stack_Project_TCG/issues"
+  },
+  "homepage": "https://github.com/Nayanika94/MERN_Stack_Project_TCG#readme"
 }
