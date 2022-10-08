@@ -1,15 +1,3 @@
-# Introduction
-
-Hello 👋,
-
-Thanks for taking the time to complete this brief take-home assignment. While this challenge is tailored to be completed in <ins>under 3 hours</ins>, feel free to take as long as you need up to the deadline provided.
-
-The goal of this exercise is to evaluate your skills in developing a basic full-stack application in JavaScript (React, Node, Express, 3rd-party integration). Feel free to make any assumptions, simplifications, or other changes to the problems - though please state those in your write up when you submit this assignment. Please use as many libraries as is reasonable - there is no sense in rebuilding what has been built. Feel at liberty to structure the project in a way that satisfies you.
-
-Before getting started, please read this document carefully.
-
-**Good luck 🙃**
-
 # Directions
 
 **Backend**: Using Node and Express, you will create a single **REST** endpoint to retrieve a list of Magic cards from the Scryfall API based on a provided search string from the client.
@@ -21,20 +9,6 @@ Before getting started, please read this document carefully.
 2. Display the card results to the user in the most user friendly way you can come up with. Feel free to be creative. All cards must display the following: The card's image(s), name, set name, number, and rarity.
 
 - Document design decisions in `DESIGN_EXPLANATION.md`
-
-# What counts?
-
-- All functional requirements must be satisfied
-- Clean, minimal, Production level code
-- General Javascript/ES6 knowledge
-- **Bonus**: Node endpoint tested using a framework of your choice
-- **Bonus**: Frontend pagination/sorting
-- **Bonus**: Design aesthetically pleasing and responsive in the browser
-- **Bonus**: Entire interface is styled using [Tailwindcss](https://tailwindcss.com) exclusively
-
-# Submission
-
-Once you're satisfied with what you've built. Invite _fated-x_ to your repo and email your recruiter to inform the dev team.
 
 # Getting started
 
